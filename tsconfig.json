@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "esnext",
+      "jsx": "react",
+      "strict": true,
+      "moduleResolution": "node",  // Ensure moduleResolution is set to "node"
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./build"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build"]
+  }
+  
