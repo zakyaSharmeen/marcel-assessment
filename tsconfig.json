@@ -1,17 +1,19 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "esnext",
-      "jsx": "react",
-      "strict": true,
-      "moduleResolution": "node",  // Ensure moduleResolution is set to "node"
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "allowSyntheticDefaultImports": true,
-      "outDir": "./build"
+      "target": "ES6",                       // Specify ES6 or the version you need (ES6 for modern browsers/node).
+      "module": "ESNext",                     // Use ESNext to support modern JavaScript modules.
+      "jsx": "react",                        // JSX support for React projects.
+      "strict": true,                        // Enable strict typescript checking.
+      "moduleResolution": "node",             // Ensure module resolution is set to "node" for consistency.
+      "esModuleInterop": true,               // Allow TypeScript to interoperate with ES modules.
+      "skipLibCheck": true,                  // Skip TypeScript lib checks.
+      "forceConsistentCasingInFileNames": true, // Ensure file name casing consistency.
+      "allowSyntheticDefaultImports": true, // Allow synthetic default imports.
+      "outDir": "./build"                    // Specify the output directory for compiled files.
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "build"]
+    "include": ["src/**/*"],               // Include all files under src directory.
+    "exclude": ["node_modules", "build"]   // Exclude node_modules and build directories.
   }
+  
+
   
